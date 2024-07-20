@@ -21,7 +21,19 @@ class MyThemeData{
         fontSize: 30,
         fontWeight: FontWeight.bold,
 
-      )
+      ),
+      bodyMedium: TextStyle(
+        color: AppColors.blackColor,
+        fontSize: 25,
+        fontWeight: FontWeight.w700,
+
+      ),
+      bodySmall: TextStyle(
+        color: AppColors.blackColor,
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+
+      ),
     ),
   );
 }
