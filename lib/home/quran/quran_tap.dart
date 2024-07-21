@@ -6,8 +6,11 @@ class QuranTap extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.cyan,
+    return Column(
+      children: [
+        Image.asset('assets/images/qur2an_screen_logo.png'),
+
+      ],
     );
   }
 }

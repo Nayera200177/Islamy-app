@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:islamy_app/app_colors.dart';
 
 class SebhaTap extends StatefulWidget {
   const SebhaTap({super.key});
@@ -76,7 +77,7 @@ class _SebhaTapState extends State<SebhaTap> {
                 borderRadius: BorderRadius.circular(40)
               ),
               child:
-               Text('${Tasbee7[index]}',),
+               Text('${Tasbee7[index]}',style: TextStyle(color: AppColors.whiteColor),),
             ),
           ),
         ),
