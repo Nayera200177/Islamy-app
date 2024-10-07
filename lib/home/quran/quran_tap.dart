@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:islamy_app/app_colors.dart';
 import 'package:islamy_app/home/quran/item_sura_name.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class QuranTap extends StatelessWidget {
   List<String> names= ["الفاتحه","البقرة","آل عمران","النساء","المائدة","الأنعام","الأعراف","الأنفال","التوبة","يونس","هود"
@@ -23,7 +24,7 @@ class QuranTap extends StatelessWidget {
           color: AppColors.primaryLightColor,
           thickness: 3,
         ),
-        Text('Sura name',
+        Text(AppLocalizations.of(context)!.sura_name,
         style: Theme.of(context).textTheme.bodyLarge,),
         Divider(
           color: AppColors.primaryLightColor,
